@@ -1,0 +1,30 @@
+// 25 kayıtlık örnek sipariş veri seti
+// id: benzersiz kimlik, kategori: ürün grubu, tutar: TL, tarih: ISO string
+export const siparisler = [
+  { id: "S001", kategori: "Elektronik",  tutar: 4500, tarih: "2025-01-05" },
+  { id: "S002", kategori: "Giyim",       tutar: 320,  tarih: "2025-01-07" },
+  { id: "S003", kategori: "Gıda",        tutar: 180,  tarih: "2025-01-10" },
+  { id: "S004", kategori: "Elektronik",  tutar: 1200, tarih: "2025-01-12" },
+  { id: "S005", kategori: "Kitap",       tutar: 95,   tarih: "2025-01-15" },
+  { id: "S006", kategori: "Gıda",        tutar: 430,  tarih: "2025-01-18" },
+  { id: "S007", kategori: "Giyim",       tutar: 750,  tarih: "2025-01-20" },
+  { id: "S008", kategori: "Elektronik",  tutar: 8900, tarih: "2025-01-22" },
+  { id: "S009", kategori: "Kitap",       tutar: 210,  tarih: "2025-02-01" },
+  { id: "S010", kategori: "Spor",        tutar: 670,  tarih: "2025-02-03" },
+  { id: "S011", kategori: "Gıda",        tutar: 290,  tarih: "2025-02-05" },
+  { id: "S012", kategori: "Spor",        tutar: 1450, tarih: "2025-02-08" },
+  { id: "S013", kategori: "Giyim",       tutar: 540,  tarih: "2025-02-10" },
+  { id: "S014", kategori: "Elektronik",  tutar: 3200, tarih: "2025-02-14" },
+  { id: "S015", kategori: "Kitap",       tutar: 125,  tarih: "2025-02-17" },
+  { id: "S016", kategori: "Gıda",        tutar: 870,  tarih: "2025-02-20" },
+  { id: "S017", kategori: "Spor",        tutar: 990,  tarih: "2025-02-22" },
+  { id: "S018", kategori: "Giyim",       tutar: 420,  tarih: "2025-03-01" },
+  { id: "S019", kategori: "Elektronik",  tutar: 650,  tarih: "2025-03-05" },
+  { id: "S020", kategori: "Kitap",       tutar: 340,  tarih: "2025-03-08" },
+  { id: "S021", kategori: "Gıda",        tutar: 115,  tarih: "2025-03-10" },
+  { id: "S022", kategori: "Spor",        tutar: 2100, tarih: "2025-03-12" },
+  { id: "S023", kategori: "Giyim",       tutar: 890,  tarih: "2025-03-15" },
+  // S002 tekrarlıyor — tekrarlayanlariBul testi için
+  { id: "S002", kategori: "Giyim",       tutar: 160,  tarih: "2025-03-18" },
+  { id: "S025", kategori: "Elektronik",  tutar: 5600, tarih: "2025-03-20" },
+];

@@ -1,0 +1,25 @@
+{
+  "name": "swe101-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0Ens/swe101-development-02-veri-yapilari-algoritmik-dusunme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0Ens/swe101-development-02-veri-yapilari-algoritmik-dusunme/issues"
+  },
+  "homepage": "https://github.com/0Ens/swe101-development-02-veri-yapilari-algoritmik-dusunme#readme",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
+}
