@@ -1,6 +1,8 @@
 # SWE101 — Veri Yapıları ve Algoritmik Düşünme
 
-> **Staj ödevi:** Veri dönüştüren saf fonksiyonlar + AI kodunu değerlendirme yöntemi.
+25 kayıtlık sipariş verisi üzerinde çalışan 5 saf dönüştürme fonksiyonu ve AI'ın yazdığı O(n×m) kodun Set ile O(n+m)'e iyileştirilmesi.
+
+![33 testin geçtiği test çıktısı](docs/test-ciktisi.png)
 
 ## Kurulum
 
@@ -38,7 +40,7 @@ node src/olcum.js
 | `indeksKur(kayitlar)`   | id → kayıt Map'i                       |
 | `tekrarlayanlariBul`    | Birden çok geçen id'leri raporlar      |
 
-**Tüm fonksiyonlar girdisini değiştirmez** — her biri için mutasyon testi mevcuttur.
+**Tüm fonksiyonlar girdisini değiştirmez** — `toplamTutar`, `kategoriyeGoreGrupla` ve `enYuksekN` için mutasyon testi mevcuttur.
 
 Örnek veri seti: `src/veri.js` (25 sipariş kaydı, bir kasıtlı tekrarlayan id içerir).
 
@@ -52,6 +54,12 @@ node src/olcum.js
 - **`hizliOrtak`** — Set kullanılarak iyileştirilmiş sürüm. O(n+m).
 
 Detaylı eleştiri için → [REVIEW.md](./REVIEW.md)
+
+---
+
+## AI Kullanımı
+
+Bu projede Claude Code ile çalıştım. Testlerin ve bazı fonksiyonların bir kısmını Claude Code yazdı; kalan testlerin neredeyse tamamını onları örnek alarak ben yazdım, öğrenmek için bu şekilde ilerledik. `naifOrtak`'taki tekrarlayan eleman sorununu eleştiri sırasında ben fark ettim, `Set` önerisi Claude Code'dan geldi. Claude Code'un yaptığı her şeyi genel olarak kontrol ettim.
 
 ---
 
